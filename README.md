@@ -44,4 +44,11 @@ More about the tutorial above in: https://stackoverflow.com/questions/21548566/h
 
 ## Using
 
-Ex
+On the source machine where the script will be run, deploy the restart_services.ps1 and servers.csv files.
+
+
+The file
+
+![alt tag](http://url/to/img.png)
+
+
