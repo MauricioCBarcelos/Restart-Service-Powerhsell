@@ -1,0 +1,4 @@
+name;timeout_to_kill;attempts_to_start_service;time_to_start_service_again
+Xbox Live Auth Manager;60;2;10
+Xbox Live Game Save;10;2;10
+TeamViewer 13;60;2;10

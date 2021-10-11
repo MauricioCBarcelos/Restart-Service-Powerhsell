@@ -1,0 +1,4 @@
+server;user;password;script_path;file_of_services
+192.168.0.17;;;D:\Scripts-Shell\Powershell\restart_services;D:\Scripts-Shell\Powershell\restart_services\list_of_services.csv
+Fulano-server;mcb\mauricio.barcelos;root;C:\Scripts\restart_services;C:\Scripts\restart_services\list_of_services.csv
+192.168.0.20;User;123456;C:\Scripts\restart_services;C:\Scripts\restart_services\list_of_services.csv
