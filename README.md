@@ -57,6 +57,11 @@ On local or remote servers where the routine is run, where the windows service r
 
 * The list_of_services.csv file must have the columns below and the must and the data must be separated by semicolon(;):
   * name: Display name or the name of windows service.
-  * timeout_to_kill: the -------
-  * attempts_to_start_service:
-  * time_to_start_service_again:
+  * timeout_to_kill: Total time in seconds to terminate the service process if it has a status other than "Stopped"
+  * attempts_to_start_service: total attempts to start the service
+  * time_to_start_service_again: Time in seconds to start the service, if time runs out and attempts_to_start_service is set to 1 the script will jump to the next service.
+
+Once the settings have been made, on the computer's source computer, run the command below to run the script:
+```powershell
+.\restart_services.ps1 -server_file '.\servers.csv'
+```
